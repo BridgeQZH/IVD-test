@@ -1,0 +1,2 @@
+# IVD-test
+The UNECE regulation on software updates requires the implementation of the integrity validation data (IVD) concept. The IVD is a concept that is used to provide some evidence to an external third party that the software running on an electronic component in the vehicle is actually running the correct software and contains the correct set of parameters. The IVD is a mandatory feature to be implemented to fulfill the UNECE R156 regulation on software updates.
