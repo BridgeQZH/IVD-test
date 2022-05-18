@@ -1,5 +1,5 @@
-def IVD_parameters(DID):
-    class Parameters:
+def IVD_software(DID):
+    class Software:
         def __init__(self, DID):
             self.DID = DID
             self.DID1_status = DID[0]
@@ -14,11 +14,11 @@ def IVD_parameters(DID):
             self.DID5_content = DID[9]
 
         def __hash__(self):
-            # print('The hash for this parameter setting is:')
+            # print('The hash for this software setting is:')
             # print(hash(self.DID1_status or self.DID1_content))
-            return hash(tuple(self.DID))
+            return hash("abc")
 
 
-    settings1 = Parameters(DID)
-    return(settings1.__hash__())
+    settings2 = Software(DID)
+    return(settings2.__hash__())
 
