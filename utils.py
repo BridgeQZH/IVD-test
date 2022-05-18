@@ -21,4 +21,6 @@ def import_test_configuration(config_file):
     config['DID4_content'] = content['parameters'].get('DID4_content')
     config['DID5'] = content['parameters'].getboolean('DID5')
     config['DID5_content'] = content['parameters'].get('DID5_content')
+    config['name_software'] = content['software'].get('name_software')
+    config['version_number'] = content['software'].getfloat('version_number')
     return config
