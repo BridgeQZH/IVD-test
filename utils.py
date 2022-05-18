@@ -1,5 +1,5 @@
 import configparser
-from sumolib import checkBinary
+# from sumolib import checkBinary
 import os
 import sys
 
